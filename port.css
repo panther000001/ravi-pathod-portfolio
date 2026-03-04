@@ -89,5 +89,39 @@ display: inline;
     justify-content:center;   
     gap:40px;                 
     padding:50px;
-    background:linear-gradient(to right, #f4f4f4, #e6f0ff);
+    background:linear-gradient(to right,  #cca1a1, #e6f0ff);
+}
+footer {
+    
+    background:linear-gradient(to right, #cca1a1, #e6f0ff);
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.icons a:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
 }
